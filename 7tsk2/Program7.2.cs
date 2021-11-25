@@ -20,7 +20,7 @@ namespace _7tsk2
             CalcCube(a, out V, out S);
             //Вывод результата
             Console.WriteLine("Объем куба составляет {0} мм3",V);          
-            Console.WriteLine("Площадь куба составляет {0} мм3",S);
+            Console.WriteLine("Площадь куба составляет {0} мм2",S);
             Console.ReadKey();
         }
         //Заводим метод вычисления площади повершности и объема куба
