@@ -50,7 +50,7 @@ namespace _7tsk
 
         }
         // Задаем метод вычисления площади треугольника по формуле Герона
-        static double CalcS(double x, double y, double z/*, out double p, out double S*/)
+        static double CalcS(double x, double y, double z)
         {
             double p = (((double)x) + z + y) / 2;// Вычисляем полупериметр
             double S = Math.Sqrt(((double)p) * (p - x) * (p - y) * (p - z));//вычисляем площадь
